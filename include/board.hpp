@@ -27,6 +27,8 @@
 #include <board_efm32gg_stk3700.hpp>
 #elif defined(__LM4__)
 #include <board_launchpad_stellaris.hpp>
+#elif defined(__ADICUP3029__)
+#include <board_adicup3029.hpp>
 #else
 #error Unknown platform in board.hpp
 #endif

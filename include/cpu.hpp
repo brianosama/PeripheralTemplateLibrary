@@ -26,6 +26,8 @@
 #include <efm32/cpu_efm32.hpp>
 #elif defined(__TM4__)
 #include <tm4/cpu_tm4.hpp>
+#elif defined(__ADICUP3029__)
+#include <aducm3029/cpu_aducm3029.hpp>
 #elif defined(__thumb__) || defined(__thumb2__)
 #include <cortex-m/cpu_cortexm.hpp>
 namespace PTL {

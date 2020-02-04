@@ -26,6 +26,8 @@
 #include <efm32/gpio_efm32.hpp>
 #elif defined( __LM4__)
 #include <tm4/gpio_tm4.hpp>
+#elif defined(__ADICUP3029__)
+#include <aducm3029/gpio_aducm3029.hpp>
 #else
 #error Unknown platform in gpio.hpp
 #endif
